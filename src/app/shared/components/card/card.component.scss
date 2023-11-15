@@ -1,0 +1,21 @@
+ 
+.book-cover {
+    max-width: 80px;  
+    max-height: 80px; 
+    border-radius: 4px;  
+  }
+  
+  mat-card {
+    max-width: 400px;
+    margin: 16px;
+  }
+  
+  mat-card-content {
+    text-align: center;
+  }
+  
+  mat-card-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  

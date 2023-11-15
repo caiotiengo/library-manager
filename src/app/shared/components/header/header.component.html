@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <span>Library Manager</span>
+        <span class="example-spacer"></span>
+         <div>
+        <button mat-raised-button (click)="addBook()"  *ngIf="!isAddBook" color="secondary">Add Book</button>
+        <button mat-raised-button (click)="bookList()" *ngIf="isAddBook" color="secondary">Book List</button>
+    </div>
+    </mat-toolbar-row>
+</mat-toolbar>

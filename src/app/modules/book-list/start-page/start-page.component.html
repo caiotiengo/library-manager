@@ -1,0 +1,10 @@
+<div class="main">
+    <div class="main__header">
+        <h1 class="main__header__title">Book List</h1>
+    </div>
+    <div class="grid-container">
+        <div *ngFor="let book of books$ | async" class="grid-item">
+            <app-card [book]="book" (deleteAction)="deleteBook($event)"></app-card>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "publishedDate": "1925-04-10",
+      "imageUrl": "https://pngimg.com/d/book_PNG2114.png"
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "George Orwell",
+      "publishedDate": "1949-06-08",
+      "imageUrl": "https://pngimg.com/d/book_PNG2114.png"
+    },
+    {
+      "id": 4,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "publishedDate": "1951-07-16",
+      "imageUrl": "https://pngimg.com/d/book_PNG2114.png"
+    },
+    {
+      "title": "bee",
+      "author": "e",
+      "publishedDate": "2023-11-02",
+      "imageUrl": "",
+      "id": 5
+    }
+  ]
+}
